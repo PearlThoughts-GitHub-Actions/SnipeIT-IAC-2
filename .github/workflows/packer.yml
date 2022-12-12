@@ -11,7 +11,7 @@ jobs:
       # - uses: trstringer/manual-approval@v1
       #   with:
       #     secret: ${{ github.TOKEN }}
-      #     approvers: tejapearlthoughts
+      ##     approvers: tejapearlthoughts
       - uses: actions/checkout@v2
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
